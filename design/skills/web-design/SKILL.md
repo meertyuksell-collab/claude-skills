@@ -1,6 +1,6 @@
 ---
 name: web-design
-description: Web 视觉设计 SKILL。输入 PRD / 参考 URL / 截图 / 关键词（任意组合），先产出一份标准化 DESIGN.md 设计规范，用户确认后据此生成 UI/UX、视觉、动效、响应式全部达标的 web 代码。专攻 web 端：Landing Page、Portfolio、产品页、博客、个人站、SaaS 介绍页等。当用户说"帮我做个网站""设计一个页面""参考 XX 做一个""把这个截图/PRD 做成网页""做一个 landing page""出一份 design 规范"时触发。不用于后端、数据库、纯逻辑 bug 修复。
+description: Web visual design skill. Takes a PRD, reference URL, screenshot or keywords (any combination), first produces a standardized DESIGN.md design spec, and after the user approves it generates web code that meets UI/UX, visual, motion and responsive standards. Web only: landing pages, portfolios, product pages, blogs, personal sites, SaaS marketing pages. Use when the user says "build me a website", "design a page", "make one like X", "turn this screenshot/PRD into a web page", "make a landing page" or "write a design spec / DESIGN.md". Not for backend, databases or pure logic bug fixes. (Instructions inside are in Chinese.)
 ---
 
 # Web Design
