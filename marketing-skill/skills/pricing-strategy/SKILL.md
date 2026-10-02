@@ -321,3 +321,9 @@ All output follows the structured communication standard:
 - **ab-test-setup**: Use to A/B test price points or pricing page layouts after initial design.
 - **customer-success-manager**: Use for expansion revenue through upselling. NOT for pricing design or packaging.
 - **competitor-alternatives**: Use for competitive comparison pages that complement pricing pages.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-specialized-pricing-analyst.md` — from *Pricing Analyst*: Critical Rules You Must Follow, Sensitivity Analysis, Approved Discount Tiers, Advanced Capabilities

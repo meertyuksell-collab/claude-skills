@@ -187,3 +187,9 @@ See `references/routing-matrix.md` for complete trigger mapping.
 ## References
 - `references/routing-matrix.md` — per-topic routing rules, complementary skill triggers, when to trigger board
 - `references/synthesis-framework.md` — full synthesis process, conflict types, output format
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-specialized-chief-of-staff.md` — from *Chief of Staff*: Advanced Capabilities

@@ -129,3 +129,9 @@ See `reference/` directory for:
 - `flaky-tests.md` — Diagnosis commands and quick fixes
 
 See `templates/README.md` for the full template index.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-testing-test-automation-engineer.md` — from *Test Automation Engineer*: Critical Rules You Must Follow

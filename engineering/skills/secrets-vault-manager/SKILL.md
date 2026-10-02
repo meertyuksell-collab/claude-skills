@@ -401,3 +401,9 @@ Eliminate long-lived secrets in CI by using OIDC federation:
 - **ci-cd-pipeline-builder** — Pipeline design where secrets are consumed
 - **docker-development** — Container secret injection patterns
 - **helm-chart-builder** — Kubernetes secret management in Helm charts
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-security-secrets-credential-engineer.md` — from *Secrets & Credential Hygiene Engineer*: Exposed credential  response order (do NOT stop at step 2)

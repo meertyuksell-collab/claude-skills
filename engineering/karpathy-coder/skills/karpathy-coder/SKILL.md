@@ -129,3 +129,9 @@ Installs via plugin for Claude Code. For other tools, copy the principles into y
 - **`self-eval`** — honest quality scoring after completing work
 - **`code-reviewer`** — broader code review; karpathy-coder focuses on the 4 LLM-specific pitfalls
 - **`llm-wiki`** — compound knowledge; karpathy-coder ensures you don't overcomplicate while building it
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-minimal-change-engineer.md` — from *Minimal Change Engineer*: Critical Rules You Must Follow, Scope Self-Check

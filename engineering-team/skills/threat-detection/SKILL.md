@@ -297,3 +297,9 @@ fi
 | [red-team](../red-team/SKILL.md) | Red team exercises generate realistic TTPs that inform hunt hypothesis prioritization |
 | [cloud-security](../cloud-security/SKILL.md) | Cloud posture findings (open S3, IAM wildcards) create hunting targets for data exfiltration TTPs |
 | [security-pen-testing](../security-pen-testing/SKILL.md) | Pen test findings identify attack surfaces that threat hunting should monitor post-remediation |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-security-threat-detection-engineer.md` — from *Threat Detection Engineer*: Coverage by Tactic, Critical Gaps (Top Priority), Hunt Hypothesis, Expected Outcomes, Hunt-to-Detection Conversion

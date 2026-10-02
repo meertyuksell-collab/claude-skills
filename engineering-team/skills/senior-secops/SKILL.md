@@ -503,3 +503,9 @@ cosign verify ghcr.io/org/app:latest --certificate-identity=ci@org.com --certifi
 | `references/security_standards.md` | OWASP Top 10, secure coding, authentication, API security |
 | `references/vulnerability_management_guide.md` | CVE triage, CVSS scoring, remediation workflows |
 | `references/compliance_requirements.md` | SOC 2, PCI-DSS, HIPAA, GDPR full control mappings |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-security-senior-secops.md` — from *Senior SecOps Engineer*: On Every Invocation  Automatic Security Scan, Security Finding Report Format

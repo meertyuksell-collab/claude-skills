@@ -170,3 +170,9 @@ Automatically surface seo-audit recommendations when:
 | On-Page SEO Findings | Structured table | Same format, focused on content and metadata |
 | Prioritized Action Plan | Numbered list | Ordered by impact × effort, grouped into Critical / High / Quick Wins |
 | Keyword Cannibalization Map | Table | Pages competing for same keyword with recommended canonical or redirect actions |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-marketing-seo-specialist.md` — from *SEO Specialist*: Core Web Vitals (Field Data), Step 1 Cross-Page Query Map, Step 2 Ownership Assignment, Step 1 Inventory Every URL Touching the Topic, Step 2 Query-Intent Overlap Check, Step 4 Canonical & Language Hygiene, Monthly Link Targets

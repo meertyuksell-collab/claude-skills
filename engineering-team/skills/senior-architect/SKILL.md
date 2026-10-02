@@ -341,3 +341,9 @@ python scripts/project_architect.py . --output json
 1. Run any script with `--help` for usage information
 2. Check reference documentation for detailed patterns and workflows
 3. Use `--verbose` flag for detailed explanations and recommendations
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-software-architect.md` — from *Software Architect*: Critical Rules

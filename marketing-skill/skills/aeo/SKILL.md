@@ -224,3 +224,10 @@ No telemetry. No cloud sync. Export to CSV anytime via `citation_tracker.py --ac
 **Version:** 2.7.3
 **Source:** Ported from [`alirezarezvani/aeo-box`](https://github.com/alirezarezvani/aeo-box) (`answer-engine-optimization/` skill, 2,464 LOC across 9 modules). This port distills the 9-module Python toolkit into 3 stdlib CLI tools per the claude-skills convention; preserves the E-E-A-T scoring methodology, citation-tracking schema, and industry-aware thresholds verbatim.
 **License:** MIT (matches upstream + this repo).
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-marketing-aeo-foundations.md` — from *AEO Foundations Architect*: Critical Rules
+- `references/agency-marketing-ai-citation-strategist.md` — from *AI Citation Strategist*: Critical Rules You Must Follow, Date YYYY-MM-DD, Lost Prompt Analysis, Platform-Specific Patterns

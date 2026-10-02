@@ -82,3 +82,9 @@ Detailed template and section examples live in:
 2. Document the "why" for key architectural decisions.
 3. Update docs in the same PR as behavior changes.
 4. Treat onboarding docs as living operational assets, not one-time deliverables.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-codebase-onboarding-engineer.md` — from *Codebase Onboarding Engineer*: Key Boundaries, Advanced Capabilities

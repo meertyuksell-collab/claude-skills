@@ -95,3 +95,9 @@ python scripts/action_item_extractor.py --input notes.md
 
 **Version:** 1.0.0
 **Build pattern:** Path-B discipline skill — meeting-science canon preserved + deterministic gate/agenda/extraction scripts added.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-project-management-meeting-notes-specialist.md` — from *Meeting Notes Specialist*: Critical Rules, Technical Deliverables, Workflow Process

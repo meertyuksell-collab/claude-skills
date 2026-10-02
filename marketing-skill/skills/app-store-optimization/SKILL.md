@@ -484,3 +484,9 @@ All output passes quality verification:
 - Self-verify: source attribution, assumption audit, confidence scoring
 - Output format: Bottom Line → What (with confidence) → Why → How to Act
 - Results only. Every finding tagged: 🟢 verified, 🟡 medium, 🔴 assumed.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-marketing-app-store-optimizer.md` — from *App Store Optimizer*: Long Description Structure, Performance Monitoring, Analytics and Performance Tracking

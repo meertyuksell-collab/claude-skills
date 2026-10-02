@@ -570,3 +570,9 @@ Three surfaces:
 3. **Direct tool call:** `python scripts/frontend_decision_engine.py ...` — deterministic profile match when inputs are known.
 
 See `agents/engineering/cs-frontend-engineer.md` for the full invocation contract.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-frontend-developer.md` — from *Frontend Developer*: UI Implementation, Accessibility Implementation

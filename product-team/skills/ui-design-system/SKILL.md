@@ -377,3 +377,9 @@ Detailed reference guides in `references/`:
 - [ ] Framework integration documented
 - [ ] Design tool synced
 - [ ] Component documentation complete
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-design-ui-designer.md` — from *UI Designer*: Base Components, Component States, Inclusive Design

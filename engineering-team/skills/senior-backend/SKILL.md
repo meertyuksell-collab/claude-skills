@@ -465,3 +465,9 @@ Three surfaces:
 3. **Direct tool call:** `python scripts/backend_decision_engine.py ...` — deterministic profile match when inputs are known.
 
 See `agents/engineering/cs-backend-engineer.md` for the full invocation contract.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-backend-architect.md` — from *Backend Architect*: High-Level Architecture

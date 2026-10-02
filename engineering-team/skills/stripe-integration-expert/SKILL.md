@@ -474,3 +474,9 @@ export async function requireActiveSubscription() {
 - **Proration surprises** — always preview proration before upgrade; show user the amount before confirming
 - **Customer portal not configured** — must enable features in Stripe dashboard under Billing → Customer portal settings
 - **Missing metadata on checkout** — always pass `userId` in metadata; can't link subscription to user without it
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-payments-billing-engineer.md` — from *Payments & Billing Engineer*: Critical Rules You Must Follow

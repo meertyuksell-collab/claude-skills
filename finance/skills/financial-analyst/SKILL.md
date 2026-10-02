@@ -151,3 +151,10 @@ Each script auto-detects the shape (flat keys win if present) and exits non-zero
 ## Dependencies
 
 **None** - All scripts use Python standard library only (`math`, `statistics`, `json`, `argparse`, `datetime`). No numpy, pandas, or scipy required.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-finance-financial-analyst.md` — from *Financial Analyst*: Critical Rules You Must Follow, Income Statement Summary ( thousands), Revenue Variance, Cost Variance
+- `references/agency-finance-fpa-analyst.md` — from *FP&A Analyst*: Critical Rules You Must Follow, 2. Key Financial Targets, 4. Expense Plan by Department, 5. Hiring Plan, 6. Scenarios, 7. Key Risks & Mitigation, Executive Dashboard, Action Items

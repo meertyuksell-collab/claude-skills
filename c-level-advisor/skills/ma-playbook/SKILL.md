@@ -115,3 +115,9 @@ Loop the findings back into the negotiation-points table above before the next c
 - `references/due-diligence-checklist.md` — comprehensive DD checklist by domain
 - `../general-counsel-advisor/SKILL.md` — term sheet analyzer + contract risk scanner
 - `../chief-data-officer-advisor/SKILL.md` — data diligence + data-asset valuation
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-ma-integration-manager.md` — from *M&A Integration Manager*: Critical Rules You Must Follow, 100-Day Integration Report  Executive Structure
