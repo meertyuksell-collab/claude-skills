@@ -232,3 +232,9 @@ A team using this skill should achieve:
 - Burn-rate alerts fire ≤2 times/month per SLO that's hit (signal, not noise)
 - Mean time to detect SLO violation: <30 min (multi-window burn-rate alerts working)
 - Quarterly SLO review happens every quarter (not annually)
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-sre.md` — from *SRE (Site Reliability Engineer)*: The Three Pillars

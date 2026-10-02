@@ -304,3 +304,9 @@ Automated security checks on every PR: secret scanning (TruffleHog), dependency 
 | [senior-security](../senior-security/SKILL.md) | Security policy and governance — frameworks, risk registers, compliance |
 | [dependency-auditor](engineering/skills/dependency-auditor/SKILL.md) | Deep supply chain security — SBOMs, license compliance, transitive risk |
 | [code-reviewer](../code-reviewer/SKILL.md) | Code review practices — includes security review checklist |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-security-penetration-tester.md` — from *Penetration Tester*: Reconnaissance & Attack Surface Mapping, Vulnerability Exploitation & Privilege Escalation, Cloud & Infrastructure Assessment, Engagement Rules, Methodology Standards, Ethical Standards, External Reconnaissance Automation, Web Application SQL Injection Testing, Network Pivoting & Tunneling Reference

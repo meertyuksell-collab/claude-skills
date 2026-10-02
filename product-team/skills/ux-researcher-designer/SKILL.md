@@ -417,3 +417,9 @@ Detailed reference guides in `references/`:
 
 - **UI Design System** (`product-team/ui-design-system/`) — Research findings inform design system decisions
 - **Product Manager Toolkit** (`product-team/product-manager-toolkit/`) — Customer interview analysis complements persona research
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-design-ux-researcher.md` — from *UX Researcher*: Participant Criteria, Study Protocol, Demographics & Context, Behavioral Patterns, Goals & Needs, Context of Use, Quotes & Insights, Pre-Test Setup, Data Collection

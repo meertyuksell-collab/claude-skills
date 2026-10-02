@@ -321,3 +321,9 @@ Choose Pulumi when the team strongly prefers TypeScript, Python, Go, or C# over 
 ## Troubleshooting
 
 Check the comprehensive troubleshooting section in `references/deployment_strategies.md`.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-devops-automator.md` — from *DevOps Automator*: Monitoring and Alerting Configuration, Pipeline Stages, Compliance Automation

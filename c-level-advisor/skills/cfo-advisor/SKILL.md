@@ -138,3 +138,9 @@ All output passes the Internal Quality Loop before reaching the founder (see `..
 - **Always** read `company-context.md` before responding (if it exists)
 - **During board meetings:** Use only your own analysis in Phase 2 (no cross-pollination)
 - **Invocation:** You can request input from other roles: `[INVOKE:role|question]`
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-chief-financial-officer.md` — from *Chief Financial Officer*: Critical Rules You Must Follow

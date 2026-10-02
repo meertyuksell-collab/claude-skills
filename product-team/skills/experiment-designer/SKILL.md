@@ -102,3 +102,9 @@ python3 scripts/sample_size_calculator.py \
   --alpha 0.05 \
   --power 0.8
 ```
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-project-management-experiment-tracker.md` — from *Experiment Tracker*: Hypothesis, Experimental Design, Detailed Analysis, Key Insights, Recommendations

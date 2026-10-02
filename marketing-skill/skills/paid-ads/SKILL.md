@@ -355,3 +355,10 @@ Always confirm conversion tracking is in place before recommending creative or t
 | Audience Targeting Brief | Primary audiences, lookalike seeds, retargeting segments, and exclusion lists per platform |
 | Pre-Launch Checklist | Platform-specific tracking verification, landing page audit, and UTM parameter setup |
 | Weekly Optimization Report Template | Metrics dashboard structure with CPA/ROAS targets, fatigue signals, and decision triggers |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-paid-media-auditor.md` — from *Paid Media Auditor*: Core Capabilities, Tooling & Automation
+- `references/agency-paid-media-paid-social-strategist.md` — from *Paid Social Strategist*: Tooling & Automation

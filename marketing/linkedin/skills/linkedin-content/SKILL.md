@@ -97,3 +97,9 @@ python3 scripts/repurpose_splitter.py --input talk.md --ledger .linkedin-ledger.
 ---
 
 **Version:** 1.0.0
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-marketing-linkedin-content-creator.md` — from *LinkedIn Content Creator*: Critical Rules You Must Follow, Your Technical Deliverables, Advanced Capabilities

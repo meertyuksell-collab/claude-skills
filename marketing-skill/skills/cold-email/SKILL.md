@@ -280,3 +280,9 @@ All output follows the structured communication standard:
 - **copywriting**: For marketing page copy. Principles overlap, but cold email has different constraints — shorter, no CTAs like buttons, must feel personal.
 - **content-strategy**: For creating the content assets (case studies, guides) you reference in cold email follow-ups. Good follow-up sequences often link to content.
 - **marketing-strategy-pmm**: For positioning and ICP definition. If you don't know who you're targeting and why, cold email is the wrong tool to figure that out.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-sales-outreach.md` — from *Sales Outreach*: Critical Rules You Must Follow, Advanced Capabilities

@@ -137,3 +137,9 @@ Without the two price flags, `--estimate-cost` reports token estimates only. The
 - `engineering-team/skills/senior-ml-engineer` — model deployment and serving (this skill stops at the prompt/eval layer)
 - `engineering/rag-architect` — RAG system architecture (this skill measures RAG quality; that one designs the pipeline)
 - `engineering/agent-designer` — full agent system design (this skill validates configs; that one designs the architecture)
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-prompt-engineer.md` — from *Prompt Engineer*: Critical Rules You Must Follow

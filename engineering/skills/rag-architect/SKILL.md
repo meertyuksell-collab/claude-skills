@@ -69,3 +69,9 @@ The design is done only when:
 - `references/chunking_strategies_comparison.md` — strategy trade-offs the optimizer implements
 - `references/embedding_model_benchmark.md` — benchmark *methodology* (dated snapshot; staleness warning at top)
 - `references/rag_evaluation_framework.md` — metric definitions (faithfulness, relevance, precision/recall/NDCG)
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-rag-pipeline-engineer.md` — from *RAG Pipeline Engineer*: Critical Rules You Must Follow

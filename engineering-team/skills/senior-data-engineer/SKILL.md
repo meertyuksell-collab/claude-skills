@@ -189,3 +189,8 @@ See `references/dataops_best_practices.md` for:
 ## Troubleshooting
 → See references/troubleshooting.md for details
 
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-data-engineer.md` — from *Data Engineer*: Pipeline Observability (Great Expectations)

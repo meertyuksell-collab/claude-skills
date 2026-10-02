@@ -264,3 +264,9 @@ All rights must be fulfilled within **one month of receipt** (Art. 12(3)). The d
 | Employment | § 26 | Detailed employee data rules |
 | Video | § 4 | Signage and proportionality |
 | Scoring | § 31 | Explainable algorithms |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-data-privacy-officer.md` — from *Data Privacy Officer*: Critical Rules You Must Follow

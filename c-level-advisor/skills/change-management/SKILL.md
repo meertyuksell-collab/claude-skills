@@ -251,3 +251,9 @@ When organizations change too fast, people stop believing any change will stick.
 
 ## Detailed References
 - `references/change-playbook.md` — ADKAR deep dive, resistance counter-strategies, communication templates, change fatigue management
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-change-management-consultant.md` — from *Change Management Consultant*: Critical Rules You Must Follow

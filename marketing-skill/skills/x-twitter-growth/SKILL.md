@@ -224,3 +224,9 @@ Generates a 2-week posting plan with:
 - `social-media-analyzer` — Cross-platform analytics
 - `content-production` — Long-form content that feeds X threads
 - `copywriting` — Headline and hook writing techniques
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-marketing-twitter-engager.md` — from *Twitter Engager*: Twitter Advertising Integration

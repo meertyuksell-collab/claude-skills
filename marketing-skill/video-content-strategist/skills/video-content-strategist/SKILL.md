@@ -216,3 +216,9 @@ All output follows the structured standard:
 - **seo-audit**: Use for auditing overall SEO. Pairs with this skill for YouTube keyword research and video SEO.
 - **social-media-manager**: Use for social media calendar and captions. NOT for video-specific strategy (that is this skill).
 - **launch-strategy**: Use when launching a product. Pairs with this skill for video launch content planning.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-marketing-video-optimization-specialist.md` — from *Video Optimization Specialist*: Packaging Strategy (Title & Thumbnail), SEO & Metadata

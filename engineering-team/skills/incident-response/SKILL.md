@@ -320,3 +320,9 @@ done
 | [cloud-security](../cloud-security/SKILL.md) | Cloud posture findings (IAM compromise, S3 exposure) may trigger incident classification |
 | [red-team](../red-team/SKILL.md) | Red team findings validate detection coverage; confirmed gaps become hunting hypotheses |
 | [security-pen-testing](../security-pen-testing/SKILL.md) | Pen test vulnerabilities exploited in the wild escalate to incident-response for active incident handling |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-security-incident-responder.md` — from *Incident Responder*: SEV3  Medium (Response Next business day), SEV4  Low (Response Standard queue)

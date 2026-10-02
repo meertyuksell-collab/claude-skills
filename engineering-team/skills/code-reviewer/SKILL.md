@@ -181,3 +181,9 @@ behaviour change in the analyzer:
 python scripts/code_quality_checker.py assets/sample_java_smells.java --json \
   | diff - expected_outputs/sample_java_smells_quality.json
 ```
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-code-reviewer.md` — from *Code Reviewer*: Review Comment Format

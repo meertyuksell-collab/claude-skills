@@ -72,3 +72,8 @@ python3 scripts/performance_profiler.py /path/to/project --large-file-threshold-
 - [references/profiling-recipes.md](references/profiling-recipes.md) — Node.js/Python/Go profiling commands, flamegraph generation, heap snapshots
 - [references/optimization-playbook.md](references/optimization-playbook.md) — before/after measurement template, quick-win optimization checklist (DB/Node/bundle/API), common pitfalls, best practices
 
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-testing-performance-benchmarker.md` — from *Performance Benchmarker*: Performance Test Results, Core Web Vitals Analysis, Bottleneck Analysis, Performance ROI Analysis, Optimization Recommendations

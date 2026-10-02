@@ -469,3 +469,8 @@ python scripts/pir_generator.py --incident assets/sample_incident_pir_data.json 
 - Deployment tracking systems
 - Feature flag platforms for quick rollbacks
 
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-incident-response-commander.md` — from *Incident Response Commander*: Timeline (UTC), Action Items

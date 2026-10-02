@@ -98,3 +98,9 @@ Full hardening guidance: [references/production-hardening-guide.md](references/p
 - [references/typescript-server-template.md](references/typescript-server-template.md)
 - [references/validation-checklist.md](references/validation-checklist.md)
 - [README.md](README.md)
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-specialized-mcp-builder.md` — from *MCP Builder*: Critical Rules You Must Follow

@@ -223,3 +223,9 @@ python scripts/poc_planner.py poc_data.json --format json  # JSON output
 **Tools:** 3 Python automation scripts
 **References:** 3 knowledge base documents
 **Templates:** 5 asset files
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-sales-engineer.md` — from *Sales Engineer*: Core Capabilities, Success Criteria (agreed with buyer before start), Evaluation Notes  Deal-Level Technical Intelligence, Technical Decision Makers, Objection Handling  Technical Layer

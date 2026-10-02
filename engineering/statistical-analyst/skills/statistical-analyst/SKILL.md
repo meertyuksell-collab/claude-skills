@@ -244,3 +244,9 @@ Structure all results as:
 ## References
 
 - `references/statistical-testing-concepts.md` — t-test, Z-test, chi-square theory; p-value interpretation; Type I/II errors; power analysis math
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-academic-statistician.md` — from *Statistician*: Critical Rules You Must Follow

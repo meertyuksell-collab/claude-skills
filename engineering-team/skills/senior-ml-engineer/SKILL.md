@@ -313,3 +313,9 @@ Sets up drift detection, alerting, and performance dashboards.
 | Data | Spark, Airflow, dbt, Kafka |
 | Deployment | Docker, Kubernetes, Triton |
 | Databases | PostgreSQL, BigQuery, Pinecone, Redis |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-ai-engineer.md` — from *AI Engineer*: Step 1 Requirements Analysis & Data Assessment

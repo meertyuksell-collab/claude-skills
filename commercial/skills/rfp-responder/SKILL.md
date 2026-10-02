@@ -152,3 +152,9 @@ Walked one at a time before any script runs. Recommended answer + canon citation
    Canon: Strategic Proposals proposal-management research — evaluators score on the rubric they were given, not on your narrative.
 
 Walk depth-first. Lock 1-3 before opening 4-7. After all 7 are answered, invoke `rfp_parser.py` → `response_drafter.py` → `winrate_predictor.py` in sequence. If question 6 lands on "we don't have a threshold," set one now or no-bid.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-sales-proposal-strategist.md` — from *Proposal Strategist*: Competitive Positioning, Win Theme Integration Map, Compliance Checklist + Strategic Overlay

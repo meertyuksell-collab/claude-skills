@@ -175,3 +175,9 @@ When given a codebase, follow this process:
 5. Test that sensitive fields (password, secret) are never in responses
 6. For auth tests, always test the "missing header" case separately from "invalid token"
 7. Add rate limit tests last — they can interfere with other test suites if run in parallel
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-testing-api-tester.md` — from *API Tester*: Test Coverage Analysis, Performance Test Results, Security Assessment, Issues and Recommendations

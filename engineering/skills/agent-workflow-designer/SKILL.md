@@ -81,3 +81,9 @@ Detailed templates: `references/workflow-patterns.md`
 2. Keep handoff payloads explicit and bounded.
 3. Validate intermediate outputs before fan-in synthesis.
 4. Enforce budget and timeout limits in every step.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-engineering-multi-agent-systems-architect.md` — from *Multi-Agent Systems Architect*: Critical Rules You Must Follow

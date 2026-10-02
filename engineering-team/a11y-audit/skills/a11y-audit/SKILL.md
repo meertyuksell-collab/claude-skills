@@ -209,3 +209,9 @@ Options:
 - [WAI-ARIA Authoring Practices 1.2](https://www.w3.org/WAI/ARIA/apg/)
 - [Deque axe-core Rules](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)
 - [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-testing-accessibility-auditor.md` — from *Accessibility Auditor*: Testing Methodology, Summary, Interactive Component Testing, Findings

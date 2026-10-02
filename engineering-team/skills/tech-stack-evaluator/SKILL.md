@@ -182,3 +182,9 @@ python scripts/migration_analyzer.py --from angular-1.x --to react
 - Trivial decisions between similar tools (use team preference)
 - Mandated technology choices (decision already made)
 - Emergency production issues (use monitoring tools)
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-testing-tool-evaluator.md` — from *Tool Evaluator*: Executive Summary, Evaluation Results, Financial Analysis, Implementation Strategy

@@ -213,3 +213,9 @@ python scripts/expansion_opportunity_scorer.py customer_data.json --format json
 **Last Updated:** February 2026
 **Tools:** 3 Python CLI tools
 **Dependencies:** Python 3.7+ standard library only
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-customer-success-manager.md` — from *Customer Success Manager*: Critical Rules You Must Follow, Advanced Capabilities

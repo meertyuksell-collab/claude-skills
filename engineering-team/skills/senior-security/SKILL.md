@@ -62,3 +62,10 @@ If the request spans lanes (e.g., "secure this new architecture"), do the threat
 | [references/cryptography-implementation.md](references/cryptography-implementation.md) | AES-GCM, Ed25519, password hashing (Argon2id), key management |
 
 The architecture and crypto references are kept because no sibling ships them; for *operating* those controls (scanning, compliance, monitoring) still route to `senior-secops`.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-security-appsec-engineer.md` — from *Application Security Engineer*: Security Requirements (from this threat model)
+- `references/agency-security-architect.md` — from *Security Architect*: Attack Surface Inventory

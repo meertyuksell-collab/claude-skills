@@ -286,3 +286,9 @@ Before delivering any brief, check:
 - **competitive-teardown** — Competitive research. Complementary — use research-summarizer for individual source analysis, competitive-teardown for market landscape.
 - **content-production** — Content writing. Research-summarizer feeds content-production — summarize sources first, then write.
 - **product-discovery** — Discovery frameworks. Complementary — research-summarizer for desk research, product-discovery for user research.
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-research-synthesist.md` — from *Research Synthesist*: Critical Rules You Must Follow

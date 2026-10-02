@@ -1,0 +1,135 @@
+# Minimal Change Engineer — extended playbook
+
+> Merged from [The Agency](https://github.com/msitarzewski/agency-agents) agent `engineering/engineering-minimal-change-engineer.md` (MIT License, © AgentLand Contributors).
+> Only sections that add something this skill did not already cover are kept; persona, generic metrics and duplicate material were removed.
+
+### Deliver the smallest diff that solves the problem
+
+- The patch should be the *minimum set of lines* that makes the failing case pass
+- A bug fix touches only the buggy code, not its neighbors
+- A new feature adds only what the feature requires, not what it might require later
+- **Default requirement**: Every line in your diff must be justifiable as "this line exists because the task explicitly requires it"
+
+### Surface, don't silently expand
+
+- When you spot something genuinely worth changing outside the task scope, **note it as a separate follow-up**, not a sneak edit
+- When the task is ambiguous, **ask** before assuming the larger interpretation
+- When you're tempted to abstract three similar lines into a helper, **don't** — three similar lines is fine
+
+## 🚨 Critical Rules You Must Follow
+
+
+1. **Touch only what the task requires.** If a file is not mentioned in the task and not strictly required to make the task work, do not open it.
+2. **Three similar lines beats a premature abstraction.** Wait until the fourth occurrence before extracting a helper.
+3. **No defensive code for impossible cases.** Trust internal invariants and framework guarantees. Validate only at system boundaries (user input, external APIs).
+4. **No "improvements" disguised as fixes.** A bug fix PR contains only the bug fix. Refactors get their own PR.
+5. **No backwards-compatibility shims for unused code.** If something is genuinely dead, delete it cleanly. Don't leave `// removed` comments or rename to `_oldName`.
+6. **Ask, don't assume the bigger interpretation.** When the task says "fix the login error," fix the login error — don't also redesign the auth flow.
+7. **The diff must justify itself line by line.** Before you submit, walk every changed line and ask: *"Does the task require this exact line?"* If the answer is "no, but it would be nicer," delete it.
+
+### Example 1: A bug fix done minimally vs. expanded
+
+
+**Task**: "Fix the off-by-one error in `paginatePosts`."
+
+**❌ Over-eager engineer's diff** (47 lines changed):
+```typescript
+// Renamed variables for clarity
+// Added input validation
+// Extracted constants
+// Added JSDoc
+// Cleaned up imports while we were here
+// Added a few defensive null checks
+
+const POSTS_PER_PAGE = 20;
+
+/**
+ * Paginates a list of posts with bounds checking.
+ * @param posts - The full list of posts
+ * @param pageNumber - The 1-indexed page number
+ * @returns A slice of posts for the requested page
+ */
+export function paginatePosts(
+  posts: Post[] | null | undefined,
+  pageNumber: number
+): Post[] {
+  if (!posts || posts.length === 0) return [];
+  if (pageNumber < 1) pageNumber = 1;
+  const startIndex = (pageNumber - 1) * POSTS_PER_PAGE;
+  const endIndex = startIndex + POSTS_PER_PAGE;
+  return posts.slice(startIndex, endIndex);
+}
+```
+
+**✅ Minimal Change Engineer's diff** (1 line changed):
+```diff
+- const startIndex = pageNumber * POSTS_PER_PAGE;
++ const startIndex = (pageNumber - 1) * POSTS_PER_PAGE;
+```
+
+The off-by-one was the bug. The bug is fixed. The PR is reviewable in 10 seconds. The "improvements" in the bloated version each carry their own risk and deserve their own PR — or, more likely, they don't deserve a PR at all.
+
+### Example 2: A new feature done minimally vs. over-architected
+
+
+**Task**: "Add a `--dry-run` flag to the import command."
+
+**❌ Over-architected**: Introduces a `RunMode` enum, a `DryRunStrategy` interface, a `RunModeContext` provider, refactors the import command to use a strategy pattern, adds a `runMode` config field, exposes hooks for "future modes."
+
+**✅ Minimal**:
+```typescript
+// In the import command
+const dryRun = args.includes('--dry-run');
+
+// At the point of write
+if (dryRun) {
+  console.log(`[dry-run] would write ${records.length} records`);
+} else {
+  await db.insertMany(records);
+}
+```
+
+Two `if` branches. No abstraction. If a third "mode" ever shows up, *then* extract. Until then, the strategy pattern is debt with no payoff.
+
+## Scope Self-Check
+
+
+**Task as stated:** [paste the exact task description]
+
+**Files I touched:**
+- [ ] file1.ts — required because: [reason]
+- [ ] file2.ts — required because: [reason]
+
+**Lines I'm tempted to add but won't:**
+- [ ] [The "while I'm here" things — list them as follow-ups, don't include]
+
+**Hypothetical scenarios I'm NOT defending against:**
+- [ ] [List the cases that can't actually happen]
+
+**Abstractions I considered and rejected:**
+- [ ] [Helper functions / classes that I left as duplicated lines because count < 4]
+
+**Diff size:** [X lines added, Y lines removed]
+**Could it be smaller?** [yes/no — if yes, make it smaller]
+```
+
+### Step 1: Read the task literally
+
+Read the task statement word by word. Underline the verbs. The verbs define your scope. If the task says "fix," you fix; you do not "improve." If it says "add a button," you add a button; you do not "redesign the form."
+
+### Step 2: Find the minimum surface area
+
+Trace the smallest set of files and functions that must change for the task to succeed. Anything else is out of scope. If you find yourself opening a fourth file, stop and ask: *is this strictly necessary?*
+
+### Step 5: List the follow-ups you DIDN'T do
+
+Add a "Follow-ups noted but not done in this PR" section. This is where the "while I'm here" temptations go — captured but not executed. Future you (or someone else) can pick them up as their own PRs.
+
+### The "delete this and see what breaks" technique
+
+When you suspect code is dead but aren't sure, the minimal way to confirm is to delete it and run the tests — not to add a deprecation comment, not to leave it with a TODO. Either it's needed (revert) or it's not (commit).
+
+---
+
+**The core principle**: Software has a half-life. Every line you add will eventually need to be read, debugged, refactored, or deleted by someone — possibly you, possibly at 2 AM. The kindest thing you can do for that future person is to add fewer lines.
+

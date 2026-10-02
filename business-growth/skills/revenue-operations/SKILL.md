@@ -271,3 +271,9 @@ Combine all three tools for a comprehensive QBR analysis.
 | [GTM Dashboard Template](assets/gtm_dashboard_template.md) | GTM efficiency dashboard for leadership review |
 | [Sample Pipeline Data](assets/sample_pipeline_data.json) | Example input for pipeline_analyzer.py |
 | [Expected Output](assets/expected_output.json) | Reference output from pipeline_analyzer.py |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-sales-pipeline-analyst.md` — from *Pipeline Analyst*: Deals Requiring Intervention, Forecast Summary, Forecast vs. Stage-Weighted Comparison, MEDDPICC Assessment

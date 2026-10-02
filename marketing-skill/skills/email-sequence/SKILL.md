@@ -143,3 +143,9 @@ Deliver email sequences as complete, ready-to-send drafts — include subject li
 | Metrics Benchmarks | Open rate, click rate, and conversion rate targets per email type and sequence goal |
 | Segmentation Rules | Audience entry/exit conditions, behavioral branching, and suppression lists |
 | Subject Line Variations | 3 subject line alternatives per email for A/B testing |
+
+## Extended playbooks (agency-agents)
+
+Complementary material merged from specialist agents. Load a file only when the task needs that depth.
+
+- `references/agency-marketing-email-strategist.md` — from *Email Marketing Strategist*: CRM  ESP Attribute Map
